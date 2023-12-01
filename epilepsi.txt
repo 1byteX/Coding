@@ -1,0 +1,9 @@
+def kevin():
+...     time.sleep(5)
+...     keyboard.press('left shift')
+...     keyboard.press('left windows')
+...     while True:
+...             keyboard.press('right arrow')
+...             time.sleep(0.00005)
+...             keyboard.release('right arrow')
+...             time.sleep(0.1)
